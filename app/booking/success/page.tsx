@@ -14,7 +14,7 @@ function BookingSuccessContent() {
   const [bookingData, setBookingData] = useState<any>(null);
   const [telegramSent, setTelegramSent] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
+//
   useEffect(() => {
     const fetchBookingAndSendTelegram = async () => {
       if (!bookingId) {
